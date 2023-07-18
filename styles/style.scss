@@ -1,0 +1,374 @@
+@mixin FlexElement($justify, $align) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin ForBlocks ($justify) {
+    display: flex;
+    justify-content: $justify;
+}
+
+.body {
+    background: #000;
+}
+
+.header {
+    &_head {
+        @include FlexElement(space-between, center);
+        width: 1075px;
+        height: 42px;
+        margin: 0 auto;
+        margin-top: 14px;
+        &_alogo {
+            cursor: pointer;
+            &_logo {
+                width: 59px;
+                height: 42px;
+            }
+        }
+        &_nav {
+            width: 629px;
+            height: 25px;
+            &_navitem {
+                &_ul {
+                    @include FlexElement(space-between, center);
+                    &_li {
+                        &_a {
+                            color: #FFF;
+                            font-family: Roboto Condensed;
+                            font-size: 24px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            text-decoration: none;
+                            transition-duration: 0.6s;
+                            &:hover {
+                                color: #AAA;
+                                transition-duration: 0.6s;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &_headbtns {
+            &_btn1 {
+                border-radius: 50px;
+                width: 77px;
+                height: 22px;
+                background: #FFF;
+                border: none;
+                text-align: center;
+                color: #000;
+                font-family: Roboto Condensed;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                transition-duration: 0.6s;
+                cursor: pointer;
+                &:hover {
+                    border: 1px solid #FFF;
+                    background: #000;
+                    color: #FFF;
+                    transition-duration: 0.6s;
+                }
+            }
+            &_btn2 {
+                border-radius: 50px;
+                width: 77px;
+                height: 22px;
+                background: #FFF;
+                border: none;
+                text-align: center;
+                color: #000;
+                font-family: Roboto Condensed;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                transition-duration: 0.6s;
+                cursor: pointer;
+                margin-left: 5px;
+                &:hover {
+                    border: 1px solid #FFF;
+                    background: #000;
+                    color: #FFF;
+                    transition-duration: 0.6s;
+                }
+            }
+        }
+    }
+}
+.main {
+    &_block1 {
+        @include ForBlocks(center);
+        &_bl1 {
+            width: 1130px;
+            height: 378px;
+            margin-top: 70px;
+            &_forp {
+                @include ForBlocks(center);
+                &_p {
+                    color: #FFF;
+                    font-family: Roboto Condensed;
+                    font-size: 50px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                }
+            }
+            &_b1 {
+                @include ForBlocks(center);
+                column-gap: 40px;
+                &_gt7 {
+                    width: 350px;
+                    height: 274px;
+                    margin-top: 15px;
+                    &_fora {
+                        @include ForBlocks(center);
+                        &_a {
+                            color: #FFF;
+                            text-align: center;
+                            font-family: Roboto Condensed;
+                            font-size: 25px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            width: 281px;
+                            height: 59px;
+                            margin-top: 14px;
+                            text-decoration: none;
+                            transition-duration: 0.6s;
+                            &:hover {
+                                color: #AAA;
+                                transition-duration: 0.6s;
+                            }
+                        }
+                    }
+                }
+                &_amg {
+                    width: 350px;
+                    height: 274px;
+                    margin-top: 15px;
+                    &_fora {
+                        @include ForBlocks(center);
+                        &_a {
+                            color: #FFF;
+                            text-align: center;
+                            font-family: Roboto Condensed;
+                            font-size: 25px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            width: 333px;
+                            height: 52px;
+                            margin-top: 14px;
+                            text-decoration: none;
+                            transition-duration: 0.6s;
+                            &:hover {
+                                color: #AAA;
+                                transition-duration: 0.6s;
+                            }
+                        }
+                    }
+                }
+                &_ntrack {
+                    width: 350px;
+                    height: 274px;
+                    margin-top: 15px;
+                    &_fora {
+                        @include ForBlocks(center);
+                        &_a {
+                            color: #FFF;
+                            text-align: center;
+                            font-family: Roboto Condensed;
+                            font-size: 25px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            width: 285px;
+                            height: 25px;
+                            margin-top: 14px;
+                            text-decoration: none;
+                            transition-duration: 0.6s;
+                            &:hover {
+                                color: #AAA;
+                                transition-duration: 0.6s;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &_block2 {
+        @include ForBlocks(center);
+        &_bl1 {
+            @include ForBlocks(center);
+            width: 1115px;
+            height: 352px;
+            margin-top: 85px;
+            column-gap: 25px;
+            &_img {
+                width: 625px;
+                height: 352px; 
+            }
+            &_texts {
+                width: 465px;
+                height: 280px;
+                &_title {
+                    color: #FFF;
+                    text-align: center;
+                    font-family: Roboto Condensed;
+                    font-size: 50px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    width: 453px;
+                    height: 48px;
+                }
+                &_text {
+                    color: #FFF;
+                    font-family: Roboto Condensed;
+                    font-size: 25px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    width: 465px;
+                    height: 200px;
+                    margin-top: 18px;
+                }
+            }
+        }
+    }
+    &_block3 {
+        @include ForBlocks(center);
+        &_bl1 {
+            width: 1031px;
+            height: 645px;
+            margin-top: 55px;
+            &_forp {
+                @include ForBlocks(center);
+                &_p {
+                    color: #FFF;
+                    font-family: Roboto Condensed;
+                    font-size: 50px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                }
+            }
+            &_buy {
+                @include ForBlocks(center);
+                width: 1031px;
+                height: 565px;
+                column-gap: 75px;
+                margin-top: 30px;
+                &_ps4 {
+                    width: 478px;
+                    height: 565px;
+                    &_forimg {
+                        @include ForBlocks(center);
+                    }
+                    &_p {
+                        color: #FFF;
+                        font-family: Roboto Condensed;
+                        font-size: 50px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                    }
+                    &_forp {
+                        @include ForBlocks(center);
+                        &_p {
+                            color: #FFF;
+                            font-family: Roboto Condensed;
+                            font-size: 40px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;  
+                        }
+                    }
+                    &_forbtn {
+                        @include ForBlocks(center);
+                        &_btn {
+                            width: 183px;
+                            height: 68px;
+                            border-radius: 50px;
+                            background: #FFF;
+                            text-align: center;
+                            color: #000;
+                            font-family: Roboto Condensed;
+                            font-size: 50px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            border: none;
+                            transition-duration: 0.6s;
+                            margin-top: 13px;
+                            &:hover {
+                                border: 2px solid #FFF;
+                                transition-duration: 0.6s;
+                                background: #000;
+                                color: #FFF;
+                            }
+                        }
+                    }
+                }
+                &_ps5 {
+                    width: 478px;
+                    height: 565px;
+                    &_forimg {
+                        @include ForBlocks(center);
+                    }
+                    &_p {
+                        color: #FFF;
+                        font-family: Roboto Condensed;
+                        font-size: 50px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                    }
+                    &_forp {
+                        @include ForBlocks(center);
+                        &_p {
+                            color: #FFF;
+                            font-family: Roboto Condensed;
+                            font-size: 40px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;  
+                        }
+                    }
+                    &_forbtn {
+                        @include ForBlocks(center);
+                        &_btn {
+                            width: 183px;
+                            height: 68px;
+                            border-radius: 50px;
+                            background: #FFF;
+                            text-align: center;
+                            color: #000;
+                            font-family: Roboto Condensed;
+                            font-size: 50px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            border: none;
+                            transition-duration: 0.6s;
+                            margin-top: 13px;
+                            &:hover {
+                                border: 2px solid #FFF;
+                                transition-duration: 0.6s;
+                                background: #000;
+                                color: #FFF;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,378 @@
+.body {
+  background: #000;
+}
+
+.header_head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1075px;
+  height: 42px;
+  margin: 0 auto;
+  margin-top: 14px;
+}
+.header_head_alogo {
+  cursor: pointer;
+}
+.header_head_alogo_logo {
+  width: 59px;
+  height: 42px;
+}
+.header_head_nav {
+  width: 629px;
+  height: 25px;
+}
+.header_head_nav_navitem_ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_head_nav_navitem_ul_li_a {
+  color: #FFF;
+  font-family: Roboto Condensed;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  transition-duration: 0.6s;
+}
+.header_head_nav_navitem_ul_li_a:hover {
+  color: #AAA;
+  transition-duration: 0.6s;
+}
+.header_head_headbtns_btn1 {
+  border-radius: 50px;
+  width: 77px;
+  height: 22px;
+  background: #FFF;
+  border: none;
+  text-align: center;
+  color: #000;
+  font-family: Roboto Condensed;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transition-duration: 0.6s;
+  cursor: pointer;
+}
+.header_head_headbtns_btn1:hover {
+  border: 1px solid #FFF;
+  background: #000;
+  color: #FFF;
+  transition-duration: 0.6s;
+}
+.header_head_headbtns_btn2 {
+  border-radius: 50px;
+  width: 77px;
+  height: 22px;
+  background: #FFF;
+  border: none;
+  text-align: center;
+  color: #000;
+  font-family: Roboto Condensed;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transition-duration: 0.6s;
+  cursor: pointer;
+  margin-left: 5px;
+}
+.header_head_headbtns_btn2:hover {
+  border: 1px solid #FFF;
+  background: #000;
+  color: #FFF;
+  transition-duration: 0.6s;
+}
+
+.main_block1 {
+  display: flex;
+  justify-content: center;
+}
+.main_block1_bl1 {
+  width: 1130px;
+  height: 378px;
+  margin-top: 70px;
+}
+.main_block1_bl1_forp {
+  display: flex;
+  justify-content: center;
+}
+.main_block1_bl1_forp_p {
+  color: #FFF;
+  font-family: Roboto Condensed;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.main_block1_bl1_b1 {
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+}
+.main_block1_bl1_b1_gt7 {
+  width: 350px;
+  height: 274px;
+  margin-top: 15px;
+}
+.main_block1_bl1_b1_gt7_fora {
+  display: flex;
+  justify-content: center;
+}
+.main_block1_bl1_b1_gt7_fora_a {
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto Condensed;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 281px;
+  height: 59px;
+  margin-top: 14px;
+  text-decoration: none;
+  transition-duration: 0.6s;
+}
+.main_block1_bl1_b1_gt7_fora_a:hover {
+  color: #AAA;
+  transition-duration: 0.6s;
+}
+.main_block1_bl1_b1_amg {
+  width: 350px;
+  height: 274px;
+  margin-top: 15px;
+}
+.main_block1_bl1_b1_amg_fora {
+  display: flex;
+  justify-content: center;
+}
+.main_block1_bl1_b1_amg_fora_a {
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto Condensed;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 333px;
+  height: 52px;
+  margin-top: 14px;
+  text-decoration: none;
+  transition-duration: 0.6s;
+}
+.main_block1_bl1_b1_amg_fora_a:hover {
+  color: #AAA;
+  transition-duration: 0.6s;
+}
+.main_block1_bl1_b1_ntrack {
+  width: 350px;
+  height: 274px;
+  margin-top: 15px;
+}
+.main_block1_bl1_b1_ntrack_fora {
+  display: flex;
+  justify-content: center;
+}
+.main_block1_bl1_b1_ntrack_fora_a {
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto Condensed;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 285px;
+  height: 25px;
+  margin-top: 14px;
+  text-decoration: none;
+  transition-duration: 0.6s;
+}
+.main_block1_bl1_b1_ntrack_fora_a:hover {
+  color: #AAA;
+  transition-duration: 0.6s;
+}
+.main_block2 {
+  display: flex;
+  justify-content: center;
+}
+.main_block2_bl1 {
+  display: flex;
+  justify-content: center;
+  width: 1115px;
+  height: 352px;
+  margin-top: 85px;
+  -moz-column-gap: 25px;
+       column-gap: 25px;
+}
+.main_block2_bl1_img {
+  width: 625px;
+  height: 352px;
+}
+.main_block2_bl1_texts {
+  width: 465px;
+  height: 280px;
+}
+.main_block2_bl1_texts_title {
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto Condensed;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 453px;
+  height: 48px;
+}
+.main_block2_bl1_texts_text {
+  color: #FFF;
+  font-family: Roboto Condensed;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 465px;
+  height: 200px;
+  margin-top: 18px;
+}
+.main_block3 {
+  display: flex;
+  justify-content: center;
+}
+.main_block3_bl1 {
+  width: 1031px;
+  height: 645px;
+  margin-top: 55px;
+}
+.main_block3_bl1_forp {
+  display: flex;
+  justify-content: center;
+}
+.main_block3_bl1_forp_p {
+  color: #FFF;
+  font-family: Roboto Condensed;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.main_block3_bl1_buy {
+  display: flex;
+  justify-content: center;
+  width: 1031px;
+  height: 565px;
+  -moz-column-gap: 75px;
+       column-gap: 75px;
+  margin-top: 30px;
+}
+.main_block3_bl1_buy_ps4 {
+  width: 478px;
+  height: 565px;
+}
+.main_block3_bl1_buy_ps4_forimg {
+  display: flex;
+  justify-content: center;
+}
+.main_block3_bl1_buy_ps4_p {
+  color: #FFF;
+  font-family: Roboto Condensed;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.main_block3_bl1_buy_ps4_forp {
+  display: flex;
+  justify-content: center;
+}
+.main_block3_bl1_buy_ps4_forp_p {
+  color: #FFF;
+  font-family: Roboto Condensed;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.main_block3_bl1_buy_ps4_forbtn {
+  display: flex;
+  justify-content: center;
+}
+.main_block3_bl1_buy_ps4_forbtn_btn {
+  width: 183px;
+  height: 68px;
+  border-radius: 50px;
+  background: #FFF;
+  text-align: center;
+  color: #000;
+  font-family: Roboto Condensed;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  transition-duration: 0.6s;
+  margin-top: 13px;
+}
+.main_block3_bl1_buy_ps4_forbtn_btn:hover {
+  border: 2px solid #FFF;
+  transition-duration: 0.6s;
+  background: #000;
+  color: #FFF;
+}
+.main_block3_bl1_buy_ps5 {
+  width: 478px;
+  height: 565px;
+}
+.main_block3_bl1_buy_ps5_forimg {
+  display: flex;
+  justify-content: center;
+}
+.main_block3_bl1_buy_ps5_p {
+  color: #FFF;
+  font-family: Roboto Condensed;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.main_block3_bl1_buy_ps5_forp {
+  display: flex;
+  justify-content: center;
+}
+.main_block3_bl1_buy_ps5_forp_p {
+  color: #FFF;
+  font-family: Roboto Condensed;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.main_block3_bl1_buy_ps5_forbtn {
+  display: flex;
+  justify-content: center;
+}
+.main_block3_bl1_buy_ps5_forbtn_btn {
+  width: 183px;
+  height: 68px;
+  border-radius: 50px;
+  background: #FFF;
+  text-align: center;
+  color: #000;
+  font-family: Roboto Condensed;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  transition-duration: 0.6s;
+  margin-top: 13px;
+}
+.main_block3_bl1_buy_ps5_forbtn_btn:hover {
+  border: 2px solid #FFF;
+  transition-duration: 0.6s;
+  background: #000;
+  color: #FFF;
+}/*# sourceMappingURL=style.css.map */
