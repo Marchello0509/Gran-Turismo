@@ -1,0 +1,81 @@
+.fortheader {
+    &_theader {
+        &_bl1 {
+            &_a {
+                &_logo {
+                    display: none;
+                }
+            }
+            &_btns {
+                display: none;
+            }
+        }
+        &_bl2 {
+            &_nav {
+                &_navitem {
+                    &_ul {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+.tmain {
+    &_block1 {
+        &_forp {
+            display: none;
+        }
+        &_forbl {
+            display: none;
+        }
+        &_forbl2 {
+            display: none;
+        }
+    }
+    &_block2 {
+        &_bl1 {
+            &_img {
+                display: none;
+            }
+            &_title {
+                display: none;
+            }
+            &_text {
+                display: none;
+            }
+        }
+    }
+    &_block3 {
+        &_bl1 {
+            &_ps4 {
+                &_forimg {
+                    display: none;
+                }
+                &_forp {
+                    display: none;
+                }
+                &_forp2 {
+                    display: none;
+                }
+                &_forbtn {
+                    display: none;
+                }
+            }
+            &_ps5 {
+                &_forimg {
+                    display: none;
+                }
+                &_forp {
+                    display: none;
+                }
+                &_forp2 {
+                    display: none;
+                }
+                &_forbtn {
+                    display: none;
+                }
+            }
+        }
+    }
+}

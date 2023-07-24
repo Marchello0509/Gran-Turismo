@@ -1,0 +1,401 @@
+@mixin FlexElement($justify, $align) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin ForBlocks ($justify) {
+    display: flex;
+    justify-content: $justify;
+}
+
+@media screen and (max-width:768px) and (min-width:426px) {
+    .header {
+        display: none;
+    }
+    .main {
+        display: none;
+    }
+    .fortheader {
+        @include ForBlocks(center);
+        &_theader {
+            width: 714px;
+            height: 74px;
+            margin-top: 15px;
+            &_bl1 {
+                @include ForBlocks(center);
+                column-gap: 490px;
+                &_a {
+                    &_logo {
+                        width: 59px;
+                        height: 42px;
+                        display: block;
+                    }
+                }
+                &_btns {
+                    display: block;
+                    &_btn1 {
+                        border-radius: 50px;
+                        background: #FFF;
+                        color: #000;
+                        font-family: Roboto Condensed;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 400;
+                        margin-top: 10px;
+                        width: 77px;
+                        height: 22px;
+                        line-height: normal;
+                        text-align: center;
+                        border: none;
+                        cursor: pointer;
+                        transition-duration: 0.6s;
+                        &:hover {
+                            border: 1px solid #FFF;
+                            transition-duration: 0.6s;
+                            background: #000;
+                            color: #FFF;
+                        }
+                    }
+                    &_btn2 {
+                        border-radius: 50px;
+                        background: #FFF;
+                        color: #000;
+                        font-family: Roboto Condensed;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 400;
+                        margin-top: 10px;
+                        width: 77px;
+                        height: 22px;
+                        line-height: normal;
+                        text-align: center;
+                        border: none;
+                        cursor: pointer;
+                        transition-duration: 0.6s;
+                        margin-left: 5px;
+                        &:hover {
+                            border: 1px solid #FFF;
+                            transition-duration: 0.6s;
+                            background: #000;
+                            color: #FFF;
+                        }
+                    }
+                }
+            }
+            &_bl2 {
+                @include ForBlocks(center);
+                &_nav {
+                    width: 629px;
+                    height: 25px;
+                    &_navitem {
+                        &_ul {
+                            @include FlexElement(space-between, center);
+                            &_li {
+                                &_a {
+                                    color: #FFF;
+                                    font-family: Roboto Condensed;
+                                    font-size: 24px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: normal;
+                                    text-decoration: none;
+                                    transition-duration: 0.6s;
+                                    &:hover {
+                                        color: #AAA;
+                                        transition-duration: 0.6s;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .tmain {
+        &_block1 {
+            display: block;
+            &_forp {
+                @include ForBlocks(center);
+                &_p {
+                    color: #FFF;
+                    font-family: Roboto Condensed;
+                    font-size: 50px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    margin-top: 33px;
+                }
+            }
+            &_forbl {
+                @include ForBlocks(center);
+                margin-top: 30px;
+                &_bl1 {
+                    width: 701px;
+                    height: 330px;
+                    @include ForBlocks(center);
+                    column-gap: 91px;
+                    &_gt7 {
+                        width: 305px;
+                        height: 305px;
+                        &_fora {
+                            @include ForBlocks(center);
+                            &_a {
+                                width: 244px;
+                                height: 59px;
+                                color: #FFF;
+                                text-align: center;
+                                font-family: Roboto Condensed;
+                                font-size: 25px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                margin-top: 10px;
+                                cursor: pointer;
+                                transition-duration: 0.6s;
+                                text-decoration: none;
+                                &:hover {
+                                    color: #AAA;
+                                    transition-duration: 0.6s;
+                                }
+                            }
+                        }
+                    }
+                    &_amg {
+                        width: 305px;
+                        height: 323px;
+                        &_fora {
+                            @include ForBlocks(center);
+                            &_a {
+                                width: 269px;
+                                height: 84px;
+                                color: #FFF;
+                                text-align: center;
+                                font-family: Roboto Condensed;
+                                font-size: 25px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                margin-top: 5px;
+                                cursor: pointer;
+                                transition-duration: 0.6s;
+                                text-decoration: none;
+                                &:hover {
+                                    color: #AAA;
+                                    transition-duration: 0.6s;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            &_forbl2 {
+                @include ForBlocks(center);
+                margin-top: 35px;
+                &_nt {
+                    width: 305px;
+                    height: 328px;
+                    &_fora {
+                        @include ForBlocks(center);
+                        &_a {
+                            width: 181px;
+                            height: 55px;
+                            color: #FFF;
+                            text-align: center;
+                            font-family: Roboto Condensed;
+                            font-size: 25px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            margin-top: 5px;
+                            cursor: pointer;
+                            transition-duration: 0.6s;
+                            text-decoration: none;
+                            &:hover {
+                                color: #AAA;
+                                transition-duration: 0.6s;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &_block2 {
+            @include ForBlocks(center);
+            &_bl1 {
+                width: 625px;
+                height: 700px;
+                margin-top: 50px;
+                &_img {
+                    display: block;
+                }
+                &_title {
+                    @include ForBlocks(center);
+                    &_p {
+                        color: #FFF;
+                        text-align: center;
+                        font-family: Roboto Condensed;
+                        font-size: 50px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        margin-top: 30px;
+                    }
+                }
+                &_text {
+                    @include ForBlocks(center);
+                    &_p {
+                        color: #FFF;
+                        text-align: center;
+                        font-family: Roboto Condensed;
+                        font-size: 30px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        width: 513px;
+                        height: 245px;
+                        margin-top: 5px;
+                    }
+                }
+            }
+        }
+        &_block3 {
+            @include ForBlocks(center);
+            &_bl1 {
+                width: 478px;
+                height: 1232px;
+                margin-top: 65px;
+                &_forp {
+                    @include ForBlocks(center);
+                    &_p {
+                        color: #FFF;
+                        font-family: Roboto Condensed;
+                        font-size: 50px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                    }
+                }
+                &_ps4 {
+                    width: 478px;
+                    height: 565px;
+                    margin-top: 10px;
+                    &_forimg {
+                        @include ForBlocks(center);
+                        &_img {
+                            display: block;
+                        }
+                    }
+                    &_forp {
+                        @include ForBlocks(center);
+                        &_p {
+                            color: #FFF;
+                            font-family: Roboto Condensed;
+                            font-size: 50px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;    
+                            margin-top: 10px;        
+                        }
+                    }
+                    &_forp2 {
+                        @include ForBlocks(center);
+                        &_p {
+                            color: #FFF;
+                            font-family: Roboto Condensed;
+                            font-size: 40px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;      
+                        }
+                    }
+                    &_forbtn {
+                        @include ForBlocks(center);
+                        &_btn {
+                            width: 183px;
+                            height: 68px;
+                            border-radius: 50px;
+                            background: #FFF;
+                            text-align: center;
+                            color: #000;
+                            font-family: Roboto Condensed;
+                            font-size: 50px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            border: none;
+                            transition-duration: 0.6s;
+                            margin-top: 13px;
+                            &:hover {
+                                border: 2px solid #FFF;
+                                transition-duration: 0.6s;
+                                background: #000;
+                                color: #FFF;
+                            }
+                        }
+                    }
+                }
+                &_ps5 {
+                    width: 478px;
+                    height: 565px;
+                    margin-top: 32px;
+                    &_forimg {
+                        @include ForBlocks(center);
+                        &_img {
+                            display: block;
+                        }
+                    }
+                    &_forp {
+                        @include ForBlocks(center);
+                        &_p {
+                            color: #FFF;
+                            font-family: Roboto Condensed;
+                            font-size: 50px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;    
+                            margin-top: 10px;        
+                        }
+                    }
+                    &_forp2 {
+                        @include ForBlocks(center);
+                        &_p {
+                            color: #FFF;
+                            font-family: Roboto Condensed;
+                            font-size: 40px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;      
+                        }
+                    }
+                    &_forbtn {
+                        @include ForBlocks(center);
+                        &_btn {
+                            width: 183px;
+                            height: 68px;
+                            border-radius: 50px;
+                            background: #FFF;
+                            text-align: center;
+                            color: #000;
+                            font-family: Roboto Condensed;
+                            font-size: 50px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            border: none;
+                            transition-duration: 0.6s;
+                            margin-top: 13px;
+                            &:hover {
+                                border: 2px solid #FFF;
+                                transition-duration: 0.6s;
+                                background: #000;
+                                color: #FFF;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
