@@ -9,7 +9,7 @@
     justify-content: $justify;
 }
 
-@media screen and (max-width:768px) and (min-width:426px) {
+@media screen and (min-width:426px) and (max-width:768px) {
     .header {
         display: none;
     }

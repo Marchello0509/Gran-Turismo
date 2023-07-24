@@ -1,0 +1,58 @@
+@mixin FlexElement($justify, $align) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin ForBlocks ($justify) {
+    display: flex;
+    justify-content: $justify;
+}
+
+@media screen and (max-width:425px) {
+    .header {
+        display: none;
+    }
+    .main {
+        display: none;
+    }
+    .forpheader {
+        @include ForBlocks(center);
+        &_pheader {
+            &_btn {
+                background: none;
+                border: none;
+                &_logo {
+                    width: 55px;
+                    height: 44px; 
+                    margin-top: 5px;
+                }
+                &:focus + ul{ 
+                    display: flex;
+                }
+            }
+            &_ul {
+                width: 121px;
+                height: 130px;
+                background: #1E1E1E;
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                &_li {
+                    &_a {
+                        color: #FFF;
+                        font-family: Roboto Condensed;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        text-decoration: none;
+                        &:hover {
+                            color: #AAA;  
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

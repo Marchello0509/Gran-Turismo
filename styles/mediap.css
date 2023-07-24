@@ -1,0 +1,44 @@
+@media screen and (max-width: 425px) {
+  .header {
+    display: none;
+  }
+  .main {
+    display: none;
+  }
+  .forpheader {
+    display: flex;
+    justify-content: center;
+  }
+  .forpheader_pheader_btn {
+    background: none;
+    border: none;
+  }
+  .forpheader_pheader_btn_logo {
+    width: 55px;
+    height: 44px;
+    margin-top: 5px;
+  }
+  .forpheader_pheader_btn:focus + ul {
+    display: flex;
+  }
+  .forpheader_pheader_ul {
+    width: 121px;
+    height: 130px;
+    background: #1E1E1E;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+  }
+  .forpheader_pheader_ul_li_a {
+    color: #FFF;
+    font-family: Roboto Condensed;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+  }
+  .forpheader_pheader_ul_li_a:hover {
+    color: #AAA;
+  }
+}/*# sourceMappingURL=mediap.css.map */
