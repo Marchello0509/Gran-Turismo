@@ -14,6 +14,31 @@
 }
 
 .header {
+    &_poster {
+        position: fixed;
+        top: 80%;
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        height: 62px;
+        margin-top: 90px;
+        &_a {
+            &_pw {
+                @include ForBlocks(center);
+                display: flex;
+                width: 62px;
+                height: 62px;
+                margin-right: 20px;
+                background: #1E1E1E;
+                border: none;
+                border-radius: 50px;
+                cursor: pointer;
+                &_img {
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
     &_head {
         @include FlexElement(space-between, center);
         width: 1075px;
@@ -75,27 +100,29 @@
                     transition-duration: 0.6s;
                 }
             }
-            &_btn2 {
-                border-radius: 50px;
-                width: 77px;
-                height: 22px;
-                background: #FFF;
-                border: none;
-                text-align: center;
-                color: #000;
-                font-family: Roboto Condensed;
-                font-size: 15px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: normal;
-                transition-duration: 0.6s;
-                cursor: pointer;
-                margin-left: 5px;
-                &:hover {
-                    border: 1px solid #FFF;
-                    background: #000;
-                    color: #FFF;
+            &_a {
+                &_btn2 {
+                    border-radius: 50px;
+                    width: 77px;
+                    height: 22px;
+                    background: #FFF;
+                    border: none;
+                    text-align: center;
+                    color: #000;
+                    font-family: Roboto Condensed;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
                     transition-duration: 0.6s;
+                    cursor: pointer;
+                    margin-left: 5px;
+                    &:hover {
+                        border: 1px solid #FFF;
+                        background: #000;
+                        color: #FFF;
+                        transition-duration: 0.6s;
+                    }
                 }
             }
         }
@@ -308,6 +335,7 @@
                             border: none;
                             transition-duration: 0.6s;
                             margin-top: 13px;
+                            cursor: pointer;
                             &:hover {
                                 border: 2px solid #FFF;
                                 transition-duration: 0.6s;
@@ -359,6 +387,7 @@
                             border: none;
                             transition-duration: 0.6s;
                             margin-top: 13px;
+                            cursor: pointer;
                             &:hover {
                                 border: 2px solid #FFF;
                                 transition-duration: 0.6s;

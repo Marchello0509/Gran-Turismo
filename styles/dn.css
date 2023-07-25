@@ -1,3 +1,6 @@
+.fortheader_poster {
+  display: none;
+}
 .fortheader_theader_bl1_a_logo {
   display: none;
 }
@@ -48,5 +51,58 @@
   display: none;
 }
 .tmain_block3_bl1_ps5_forbtn {
+  display: none;
+}
+
+.forpheader_poster {
+  display: none;
+}
+.forpheader_pheader_btn {
+  display: none;
+}
+.forpheader_pheader_ul {
+  display: none;
+}
+
+.pmain_block1_forp {
+  display: none;
+}
+.pmain_block1_scroll {
+  display: none;
+}
+.pmain_block2_bl1_img {
+  display: none;
+}
+.pmain_block2_bl1_title {
+  display: none;
+}
+.pmain_block2_bl1_text {
+  display: none;
+}
+.pmain_block3_bl1_forp {
+  display: none;
+}
+.pmain_block3_bl1_ps4_img {
+  display: none;
+}
+.pmain_block3_bl1_ps4_p {
+  display: none;
+}
+.pmain_block3_bl1_ps4_forp {
+  display: none;
+}
+.pmain_block3_bl1_ps4_forbtn {
+  display: none;
+}
+.pmain_block3_bl1_ps5_img {
+  display: none;
+}
+.pmain_block3_bl1_ps5_p {
+  display: none;
+}
+.pmain_block3_bl1_ps5_forp {
+  display: none;
+}
+.pmain_block3_bl1_ps5_forbtn {
   display: none;
 }/*# sourceMappingURL=dn.css.map */

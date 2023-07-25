@@ -1,4 +1,7 @@
 .fortheader {
+    &_poster {
+        display: none;
+    }
     &_theader {
         &_bl1 {
             &_a {
@@ -70,6 +73,78 @@
                     display: none;
                 }
                 &_forp2 {
+                    display: none;
+                }
+                &_forbtn {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+.forpheader {
+    &_poster {
+        display: none;
+    }
+    &_pheader {
+        &_btn {
+            display: none;
+        }
+        &_ul {
+            display: none;
+        }
+    }
+}
+.pmain {
+    &_block1 {
+        &_forp {
+            display: none;
+        }
+        &_scroll {
+            display: none;
+        }
+    }
+    &_block2 {
+        &_bl1 {
+            &_img {
+                display: none;
+            }
+            &_title {
+                display: none;
+            }
+            &_text {
+                display: none;
+            }
+        }
+    }
+    &_block3 {
+        &_bl1 {
+            &_forp {
+                display: none;
+            }
+            &_ps4 {
+                &_img {
+                    display: none;
+                }
+                &_p {
+                    display: none;
+                }
+                &_forp {
+                    display: none;
+                }
+                &_forbtn {
+                    display: none;
+                }
+            }
+            &_ps5 {
+                &_img {
+                    display: none;
+                }
+                &_p {
+                    display: none;
+                }
+                &_forp {
                     display: none;
                 }
                 &_forbtn {

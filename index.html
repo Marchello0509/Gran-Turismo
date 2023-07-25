@@ -22,7 +22,14 @@
     <link rel="stylesheet" href="./styles/mediap.css">
 </head>
 <body class="body">
-    <div class="header">
+    <div id="header" class="header">
+        <div class="header_poster">
+            <a class="header_poster_a" href="#header">
+                <button class="header_poster_a_pw">
+                    <img class="header_poster_a_pw_img" src="./img/Arrow 1.png" alt="">
+                </button>
+            </a>
+        </div>
         <header class="header_head">
             <a class="header_head_alogo" href="#">
                 <img class="header_head_alogo_logo" src="./img/logo.png" alt="">
@@ -31,13 +38,13 @@
                 <nav class="header_head_nav_navitem">
                     <ul class="header_head_nav_navitem_ul">
                         <li class="header_head_nav_navitem_ul_li">
-                            <a class="header_head_nav_navitem_ul_li_a" href="#">NEWS</a>
+                            <a class="header_head_nav_navitem_ul_li_a" href="#block1">NEWS</a>
                         </li>
                         <li class="header_head_nav_navitem_ul_li">
-                            <a class="header_head_nav_navitem_ul_li_a" href="#">GRAN TURISMO 7</a>
+                            <a class="header_head_nav_navitem_ul_li_a" href="#block1">GRAN TURISMO 7</a>
                         </li>
                         <li class="header_head_nav_navitem_ul_li">
-                            <a class="header_head_nav_navitem_ul_li_a" href="#">CARS</a>
+                            <a class="header_head_nav_navitem_ul_li_a" href="#block2">MOVIE</a>
                         </li>
                         <li class="header_head_nav_navitem_ul_li">
                             <a class="header_head_nav_navitem_ul_li_a" href="#">MUSEUM</a>
@@ -50,12 +57,14 @@
             </div>
             <div class="header_head_headbtns">
                 <button class="header_head_headbtns_btn1">login</button>
-                <button class="header_head_headbtns_btn2">buy</button>
+                <a class="header_head_headbtns_a" href="#block3">
+                    <button class="header_head_headbtns_a_btn2">buy</button>
+                </a>
             </div>
         </header>
     </div>
     <div class="main">
-        <div class="main_block1">
+        <div id="block1" class="main_block1">
             <div class="main_block1_bl1">
                 <div class="main_block1_bl1_forp">
                     <p class="main_block1_bl1_forp_p">NEWS</p>
@@ -82,7 +91,7 @@
                 </div>
             </div>
         </div>
-        <div class="main_block2">
+        <div id="block2" class="main_block2">
             <div class="main_block2_bl1">
                 <img class="main_block2_bl1_img" src="./img/movie.png" alt="">
                 <div class="main_block2_bl1_texts">
@@ -91,7 +100,7 @@
                 </div>
             </div>
         </div>
-        <div class="main_block3">
+        <div id="block3" class="main_block3">
             <div class="main_block3_bl1">
                 <div class="main_block3_bl1_forp">
                     <p class="main_block3_bl1_forp_p">BUY</p>
@@ -126,7 +135,14 @@
         </div>
     </div>
     <div class="fortheader">
-        <div class="fortheader_theader">
+        <div class="fortheader_poster">
+            <a class="fortheader_poster_a" href="#theader">
+                <button class="fortheader_poster_a_pw">
+                    <img class="fortheader_poster_a_pw_img" src="./img/Arrow 1.png" alt="">
+                </button>
+            </a>
+        </div>
+        <div  id="theader" class="fortheader_theader">
             <div class="fortheader_theader_bl1">
                 <a class="fortheader_theader_bl1_a" href="#">
                     <img class="fortheader_theader_bl1_a_logo" src="./img/logo.png" alt="">
@@ -239,7 +255,14 @@
         </div>
     </div>
     <div class="forpheader">
-        <div class="forpheader_pheader">
+        <div class="forpheader_poster">
+            <a class="forpheader_poster_a" href="#pheader">
+                <button class="forpheader_poster_a_pw">
+                    <img class="forpheader_poster_a_pw_img" src="./img/Arrow 1.png" alt="">
+                </button>
+            </a>
+        </div>
+        <div id="pheader" class="forpheader_pheader">
             <button class="forpheader_pheader_btn">
                 <img class="forpheader_pheader_btn_logo" src="./img/logo.png" alt="">
             </button>
@@ -266,6 +289,71 @@
                     <a class="forpheader_pheader_ul_li_a" href="#">BUY</a>
                 </li>
             </ul>
+        </div>
+    </div>
+    <div class="pmain">
+        <div class="pmain_block1">
+            <div class="pmain_block1_forp">
+                <p class="pmain_block1_forp_p">NEWS</p>
+            </div>
+            <div class="pmain_block1_scroll">
+                <div class="pmain_block1_scroll_item1">
+                    <img class="pmain_block1_scroll_item1_img" src="./img/gt 7(2).png" alt="">
+                    <div class="pmain_block1_scroll_item1_fora">
+                        <a class="pmain_block1_scroll_item1_fora_a" href="#">Gran Turismo 7 entered the global market</a>
+                    </div>
+                </div>
+                <div class="pmain_block1_scroll_item2">
+                    <img class="pmain_block1_scroll_item2_img" src="./img/amg(2)l.png" alt="">
+                    <div class="pmain_block1_scroll_item2_fora">
+                        <a class="pmain_block1_scroll_item2_fora_a" href="#">Introducing the Mercedes-Benz AMG Vision Gran Turismo Racing</a>
+                    </div>
+                </div>
+                <div class="pmain_block1_scroll_item3">
+                    <img class="pmain_block1_scroll_item3_img" src="./img/nt(3).png" alt="">
+                    <div class="pmain_block1_scroll_item3_fora">
+                        <a class="pmain_block1_scroll_item3_fora_a" href="#">New track in Gran Turismo 7</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pmain_block2">
+            <div class="pmain_block2_bl1">
+                <img class="pmain_block2_bl1_img" src="./img/movie(3).png" alt="">
+                <div class="pmain_block2_bl1_title">
+                    <p class="pmain_block2_bl1_title_p">Introducing new movie</p>
+                </div>
+                <div class="pmain_block2_bl1_text">
+                    <p class="pmain_block2_bl1_text_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices ante est, non ullamcorper diam aliquam at. Suspendisse vulputate tempor neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Aliquam venenatis nibh lorem, sit amet viverra arcu varius vitae.</p>
+                </div>
+            </div>
+        </div>
+        <div class="pmain_block3">
+            <div class="pmain_block3_bl1">
+                <div class="pmain_block3_bl1_forp">
+                    <p class="pmain_block3_bl1_forp_p">BUY</p>
+                </div>
+                <div class="pmain_block3_bl1_ps4">
+                    <img class="pmain_block3_bl1_ps4_img" src="./img/ps4.png" alt="">
+                    <p class="pmain_block3_bl1_ps4_p">Gran Turismo 7 for PS 4</p>
+                    <div class="pmain_block3_bl1_ps4_forp">
+                        <p class="pmain_block3_bl1_ps4_forp_p">62$</p>
+                    </div>
+                    <div class="pmain_block3_bl1_ps4_forbtn">
+                        <button class="pmain_block3_bl1_ps4_forbtn_btn">Buy</button>
+                    </div>
+                </div>
+                <div class="pmain_block3_bl1_ps5">
+                    <img class="pmain_block3_bl1_ps5_img" src="./img/ps5.png" alt="">
+                    <p class="pmain_block3_bl1_ps5_p">Gran Turismo 7 for PS 5</p>
+                    <div class="pmain_block3_bl1_ps5_forp">
+                        <p class="pmain_block3_bl1_ps5_forp_p">70$</p>
+                    </div>
+                    <div class="pmain_block3_bl1_ps5_forbtn">
+                        <button class="pmain_block3_bl1_ps5_forbtn_btn">Buy</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>

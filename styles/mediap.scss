@@ -18,10 +18,37 @@
     }
     .forpheader {
         @include ForBlocks(center);
+        &_poster {
+            position: fixed;
+            top: 80%;
+            display: flex;
+            justify-content: flex-end;
+            width: 100%;
+            height: 62px;
+            margin-top: 30px;
+            &_a {
+                &_pw {
+                    @include ForBlocks(center);
+                    display: flex;
+                    width: 62px;
+                    height: 62px;
+                    margin-right: 10px;
+                    background: #1E1E1E;
+                    border: none;
+                    border-radius: 50px;
+                    cursor: pointer;
+                    &_img {
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
         &_pheader {
             &_btn {
                 background: none;
                 border: none;
+                display: block;
+                width: 121px;
                 &_logo {
                     width: 55px;
                     height: 44px; 
@@ -38,6 +65,7 @@
                 display: none;
                 flex-direction: column;
                 position: absolute;
+                list-style: none;
                 &_li {
                     &_a {
                         color: #FFF;
@@ -49,6 +77,287 @@
                         text-decoration: none;
                         &:hover {
                             color: #AAA;  
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .pmain {
+        &_block1 {
+            &_forp {
+                @include ForBlocks(center);
+                &_p {
+                    color: #FFF;
+                    font-family: Roboto Condensed;
+                    font-size: 50px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                }
+            }
+            &_scroll {
+                display: flex;
+                column-gap: 25px;
+                min-width: 100%;
+                min-height: 330px;
+                align-items: center;
+                overflow-x: scroll;
+                margin-top: 15px;
+                &::-webkit-scrollbar {
+                    display: none;
+                }
+                &_item1 {
+                    width: 305px;
+                    min-width: 305px;
+                    height: 330px;
+                    &_img {
+                        display: block;
+                    }
+                    &_fora {
+                        @include ForBlocks(center);
+                        &_a {
+                            color: #FFF;
+                            text-align: center;
+                            font-family: Roboto Condensed;
+                            font-size: 25px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            width: 244px;
+                            height: 65px;
+                            margin-top: 15px;
+                            text-decoration: none;
+                            transition-duration: 0.6s;
+                            &:hover {
+                                color: #AAA;
+                                transition-duration: 0.6s;
+                            }
+                        }
+                    }
+                }
+                &_item2 {
+                    width: 305px;
+                    min-width: 305px;
+                    height: 330px;
+                    &_img {
+                        display: block;
+                    }
+                    &_fora {
+                        @include ForBlocks(center);
+                        &_a {
+                            color: #FFF;
+                            text-align: center;
+                            font-family: Roboto Condensed;
+                            font-size: 25px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            width: 270px;
+                            height: 84px;
+                            margin-top: 15px;
+                            text-decoration: none;
+                            transition-duration: 0.6s;
+                            &:hover {
+                                color: #AAA;
+                                transition-duration: 0.6s;
+                            }
+                        }
+                    }
+                }
+                &_item3  {
+                    width: 305px;
+                    min-width: 305px;
+                    height: 330px;
+                    &_img {
+                        display: block;
+                        width: 305px;
+                        height: 224.50px;
+                    }
+                    &_fora {
+                        @include ForBlocks(center);
+                        &_a {
+                            color: #FFF;
+                            text-align: center;
+                            font-family: Roboto Condensed;
+                            font-size: 25px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            width: 180px;
+                            height: 55px;
+                            margin-top: 15px;
+                            text-decoration: none;
+                            transition-duration: 0.6s;
+                            &:hover {
+                                color: #AAA;
+                                transition-duration: 0.6s;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &_block2 {
+            @include ForBlocks(center);
+            &_bl1 {
+                width: 320px;
+                height: 461px;
+                margin-top: 15px; 
+                &_img {
+                    display: block;
+                }
+                &_title {
+                    @include ForBlocks(center);
+                    &_p {
+                        color: #FFF;
+                        text-align: center;
+                        font-family: Roboto Condensed;
+                        font-size: 25px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        margin-top: 5px;
+                    }
+                }
+                &_text {
+                    @include ForBlocks(center);
+                    &_p {
+                        color: #FFF;
+                        text-align: center;
+                        font-family: Roboto Condensed;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        width: 273px;
+                        height: 208px;
+                        margin-top: 2px;
+                    }
+                }
+            }
+        }
+        &_block3 {
+            @include ForBlocks(center);
+            &_bl1 {
+                width: 287px;
+                height: 1210px;
+                margin-top: 20px;
+                &_forp {
+                    @include ForBlocks(center);
+                    &_p {
+                        color: #FFF;
+                        font-family: Roboto Condensed;
+                        font-size: 50px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                    }
+                }
+                &_ps4 {
+                    width: 287px;
+                    height: 548px;
+                    &_img {
+                        display: block;
+                    }
+                    &_p {
+                        color: #FFF;
+                        font-family: Roboto Condensed;
+                        display: block;
+                        font-size: 30px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        margin-top: 5px;
+                    }
+                    &_forp {
+                        @include ForBlocks(center);
+                        &_p {
+                            color: #FFF;
+                            font-family: Roboto Condensed;
+                            font-size: 40px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            margin-top: 5px;   
+                        }
+                    }
+                    &_forbtn {
+                        @include ForBlocks(center);
+                        &_btn {
+                            width: 183px;
+                            height: 68px;
+                            border-radius: 50px;
+                            background: #FFF;
+                            color: #000;
+                            font-family: Roboto Condensed;
+                            font-size: 50px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            text-align: center;
+                            margin-top: 10px;
+                            border: none;
+                            &:hover {
+                                border: 2px solid #FFF;
+                                transition-duration: 0.6s;
+                                background: #000;
+                                color: #FFF;
+                            }
+                        }
+                    }
+                }
+                &_ps5 {
+                    width: 287px;
+                    height: 548px;
+                    margin-top: 40px;
+                    &_img {
+                        display: block;
+                    }
+                    &_p {
+                        color: #FFF;
+                        display: block;
+                        font-family: Roboto Condensed;
+                        font-size: 30px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        margin-top: 5px;
+                    }
+                    &_forp {
+                        @include ForBlocks(center);
+                        &_p {
+                            color: #FFF;
+                            font-family: Roboto Condensed;
+                            font-size: 40px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            margin-top: 5px;   
+                        }
+                    }
+                    &_forbtn {
+                        @include ForBlocks(center);
+                        &_btn {
+                            width: 183px;
+                            height: 68px;
+                            border-radius: 50px;
+                            background: #FFF;
+                            color: #000;
+                            font-family: Roboto Condensed;
+                            font-size: 50px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            text-align: center;
+                            margin-top: 10px;
+                            border: none;
+                            &:hover {
+                                border: 2px solid #FFF;
+                                transition-duration: 0.6s;
+                                background: #000;
+                                color: #FFF;
+                            }
                         }
                     }
                 }
